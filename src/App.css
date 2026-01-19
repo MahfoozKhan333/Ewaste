@@ -1,0 +1,22 @@
+/* Custom styles for journey slider */
+.journey-slider .slick-track {
+    display: flex !important;
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.journey-slider .slick-slide {
+    height: inherit !important;
+    padding: 10px 15px;
+}
+
+@media (min-width: 768px) {
+    .journey-slider .slick-track {
+        gap: 20px;
+    }
+    
+    .journey-slider .slick-slide {
+        padding: 10px 20px;
+    }
+}
